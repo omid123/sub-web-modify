@@ -771,12 +771,12 @@ export default {
     },
     notify() {
       this.$notify({
-        title: "温馨提示",
+        title: "放心使用",
         type: "warning",
         position: 'top-left',
         customClass: 'msgbox',
         message: (
-          "本站自定义配置上传功能已恢复！"
+          "不会查看后端！"
         )
       });
     },
