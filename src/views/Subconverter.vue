@@ -312,50 +312,25 @@ export default {
          "suo.yt":"https://suo.yt/short",
          "sub.cm":"https://sub.cm/short",
         },
-        customBackend: {
-          "肥羊增强型后端【负载均衡】":"https://api.v1.mk/sub?",
-          "sub-web作者提供": "https://api.wcc.best/sub?",
-          "nameless13提供":"https://www.nameless13.com/sub?",
-          "subconverter作者提供":"https://subcon.dlj.tf/sub?",
-          "sub作者&lhie1提供": "https://api.dler.io/sub?",
-          "品云提供": "https://sub.id9.cc/sub?",
-        },
-        backendOptions: [
-          { value: "https://api.v1.mk/sub?" },
-          { value: "https://api.wcc.best/sub?" },
-          { value: "https://www.nameless13.com/sub?" },
-          { value: "https://sub.xeton.dev/sub?" },
-          { value: "https://api.dler.io/sub?" },
-          { value: "https://sub.id9.cc/sub?" },
+       customBackend: {
+        "大象自用后端": "https://royal-tree-775f.scyucitizen1.workers.dev/sub?",
+                        "sub.id9.cc (品云提供)": "https://sub.id9.cc/sub?",
+                        "本地转换后端": "http://127.0.0.1:25500/sub?",
+                        },
+        backendOptions: [{ value: "https://royal-tree-775f.scyucitizen1.workers.dev/sub?" },
+                          { value: "https://sub.id9.cc/sub?" },
+                          { value: "http://127.0.0.1:25500/sub?" },
         ],
         remoteConfig: [
           {
-            label: "通用",
-            options: [
-              {
-                label: "默认",
-                value: "https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/Area_Media_NoAuto.ini"
-              },
-              {
-                label: "默认（自动测速）",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"
-              },
-              {
-                label: "默认（索尼电视专用）",
-                value: "https://raw.githubusercontent.com/youshandefeiyang/webcdn/main/SONY.ini"
-              },
-              {
-                label: "默认（附带用于 Clash 的 AdGuard DNS）",
-                value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/default_with_clash_adg.yml"
-              }
-            ]
-          },
+           
           {
             label: "ACL规则",
             options: [
               {
-                label: "ACL_默认版",
-                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+                label: "ACL4SSR_Online 默认版 分组比较全 (与Github同步)",
+    		value:
+       		 "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
               },
               {
                 label: "ACL_无测速版",
@@ -700,9 +675,9 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "https://api.v1.mk/sub?",
-        shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/Area_Media_NoAuto.ini",
+        customBackend: "https://royal-tree-775f.scyucitizen1.workers.dev/sub",
+        shortType: "https://suo.yt/short",
+        remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
