@@ -769,6 +769,17 @@ export default {
       window.localStorage.setItem('localTheme','light-mode');
       }
     },
+    notify() {
+      this.$notify({
+        title: "温馨提示",
+        type: "warning",
+        position: 'top-left',
+        customClass: 'msgbox',
+        message: (
+          "本站自定义配置上传功能已恢复！"
+        )
+      });
+    },
     onCopy() {
       this.$message.success("Copied!");
     },
