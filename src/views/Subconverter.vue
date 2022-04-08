@@ -323,8 +323,6 @@ export default {
         ],
         remoteConfig: [
           {
-           
-          {
             label: "ACL规则",
             options: [
               {
