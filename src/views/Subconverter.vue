@@ -323,12 +323,11 @@ export default {
         ],
         remoteConfig: [
           {
-            label: "通用",
+           label: "ACL规则",
             options: [
               {
-                label: "ACL4SSR_Online 默认版 分组比较全 (与Github同步)",
-    		value:
-       		 "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+                label: "ACL_默认版",
+                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
               },
               {
                 label: "ACL_无测速版",
