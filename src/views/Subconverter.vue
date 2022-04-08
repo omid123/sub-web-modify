@@ -323,7 +323,7 @@ export default {
         ],
         remoteConfig: [
           {
-            label: "ACL规则",
+            label: "通用",
             options: [
               {
                 label: "ACL4SSR_Online 默认版 分组比较全 (与Github同步)",
@@ -769,17 +769,6 @@ export default {
       document.getElementsByTagName('body')[0].setAttribute('class', 'light-mode');
       window.localStorage.setItem('localTheme','light-mode');
       }
-    },
-    notify() {
-      this.$notify({
-        title: "温馨提示",
-        type: "warning",
-        position: 'top-left',
-        customClass: 'msgbox',
-        message: (
-          "本站自定义配置上传功能已恢复！"
-        )
-      });
     },
     onCopy() {
       this.$message.success("Copied!");
