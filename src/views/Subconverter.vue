@@ -672,7 +672,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "https://royal-tree-775f.scyucitizen1.workers.dev/sub",
+        customBackend: "https://royal-tree-775f.scyucitizen1.workers.dev/sub?",
         shortType: "https://suo.yt/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
