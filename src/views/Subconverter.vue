@@ -310,10 +310,10 @@ export default {
          "sub.cm":"https://sub.cm/short",
         },
        customBackend: {
-        "Akashi自用后端": "https://akashi1.1137227548.workers.dev/sub?",
+        "Akashi自用后端": "https://akashi.vercel.app/sub?",
                         "本地转换后端": "http://127.0.0.1:25500/sub?",
                         },
-        backendOptions: [{ value: "https://akashi1.1137227548.workers.dev/sub?" },
+        backendOptions: [{ value: "https://akashi.vercel.app/sub?" },
                           { value: "http://127.0.0.1:25500/sub?" },
         ],
         remoteConfig: [
@@ -667,7 +667,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "clash",
-        customBackend: "https://akashi1.1137227548.workers.dev/sub?",
+        customBackend: "https://akashi.vercel.app/sub?",
         shortType: "https://suo.yt/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
