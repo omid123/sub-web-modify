@@ -313,13 +313,13 @@ export default {
          "sub.cm":"https://sub.cm/short",
         },
        customBackend: {
-        "大象自用后端": "https://royal-tree-775f.scyucitizen1.workers.dev/sub?",
-                        "sub.id9.cc (品云提供)": "https://sub.id9.cc/sub?",
+        "Akashi自用后端": "https://akashi1.1137227548.workers.dev/sub?",
                         "本地转换后端": "http://127.0.0.1:25500/sub?",
+			"subconverter作者提供":"https://sub.xeton.dev/sub?",
                         },
         backendOptions: [{ value: "https://royal-tree-775f.scyucitizen1.workers.dev/sub?" },
-                          { value: "https://sub.id9.cc/sub?" },
                           { value: "http://127.0.0.1:25500/sub?" },
+			  { value: "https://sub.xeton.dev/sub?" },
         ],
         remoteConfig: [
           {
@@ -672,7 +672,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "clash",
-        customBackend: "https://royal-tree-775f.scyucitizen1.workers.dev/sub?",
+        customBackend: "https://akashi1.1137227548.workers.dev/sub?",
         shortType: "https://suo.yt/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
